@@ -1,6 +1,6 @@
 # If-Statment
 # Pengkondisian
-# Tab dalam Python sangat berpengaruh terhadap jalanya Code
+#! Tab dalam Python sangat berpengaruh terhadap jalanya Code
 
 # Contoh 1
 manusia = 100
@@ -24,10 +24,19 @@ if menang == True:
 if menang == False:
     print ("Silahkan coba lagi")
 
-# Output yang dihasilkan adalah Output yang bernilai true
+#! Output yang dihasilkan adalah Output yang bernilai true
 
+
+# If
+
+menang2 = False
+
+if menang2:
+    print ("Selamat anda mendapatkan uang")
+else:
+    print("Awikwok bang")
 
 # if kondisi:
 #    melakukan apa?
 #    melakukan hal lain
-# dst # Jika tidak menggunakan tab maka baris code tersebut tidak akan di jalankan
+# dst #! Jika tidak menggunakan tab maka baris code tersebut tidak akan di jalankan
