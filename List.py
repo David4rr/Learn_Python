@@ -13,4 +13,8 @@ print (len(nama))
 nama[0] = "Akber Wikwok" # Mengubah data list
 print (nama)
 
+# For Loop
+for nama_pelanggan in nama: # Semua data nama akan dimasukan ke variable nama_pelanggan
+    print (nama_pelanggan)
+
 #! Saat Menghapus data perhatikan posisi indeks bisa saja berubah
