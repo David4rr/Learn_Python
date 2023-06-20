@@ -28,13 +28,25 @@ if menang == False:
 
 
 # If
-
 menang2 = False
 
 if menang2:
     print ("Selamat anda mendapatkan uang")
 else:
     print("Awikwok bang")
+
+# else if => elif jika di python
+
+Pilih_menu = input ("Pilih menu dari 1-3 : ")
+
+if Pilih_menu == "1":
+    print("Ayam")
+elif Pilih_menu == "2":
+    print ("Sate")
+elif Pilih_menu == "3":
+    print ("Rendang")
+else:
+    print ("Menu tidak Tersedia")
 
 # if kondisi:
 #    melakukan apa?
