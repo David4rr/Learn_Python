@@ -10,7 +10,6 @@ image = io.imread('C:/Users/david/Documents/my private document/tugas kuliah/Sem
 gray_image = rgb2gray(image)
 bright = gray_image + 50 
 dark = gray_image - 50
-# contrast = (gray_image)
 
 # Apply contrast stretching
 p2, p98 = np.percentile(gray_image, (2, 98))
