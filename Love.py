@@ -23,7 +23,7 @@ penup()
 goto(0, 80)
 pendown()
 color('black')
-write("Who", align='center', font=('Arial', 35, 'bold'))
+write("fill_urName", align='center', font=('Arial', 35, 'bold'))
 
 # Menunggu sampai jendela turtle ditutup
 done()
